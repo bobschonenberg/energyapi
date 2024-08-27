@@ -10,6 +10,7 @@ from typing import Any
 
 app = FastAPI()
 
+
 # Update the MongoDB connection string to use an environment variable
 MONGO_DETAILS = os.getenv("MONGO_URL", "mongodb://localhost:27017/mydatabase")
 
